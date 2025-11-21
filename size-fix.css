@@ -1,0 +1,156 @@
+/* Size Fixes to make everything more normal-sized */
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-light);
+    min-height: 100vh;
+    font-size: 14px !important;
+    overflow-x: hidden;
+}
+
+:root {
+    --space-lg: 1.5rem !important;
+    --space-xl: 2rem !important;
+}
+
+/* Background Animation */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Reduce logo size */
+.game-logo {
+    font-size: 5rem !important;
+}
+
+.logo-subtitle {
+    font-size: 1.2rem !important;
+}
+
+/* Reduce button sizes */
+.menu-btn,
+.lobby-btn,
+.modal-btn {
+    padding: 1rem 1.8rem !important;
+    font-size: 1.3rem !important;
+}
+
+.btn-icon {
+    font-size: 1.5rem !important;
+}
+
+/* Reduce modal sizes */
+.modal-title {
+    font-size: 2rem !important;
+}
+
+.form-group label {
+    font-size: 1rem !important;
+}
+
+.form-group input,
+.form-group select {
+    padding: 0.8rem 1rem !important;
+    font-size: 1.1rem !important;
+}
+
+/* Reduce lobby sizes */
+.lobby-title {
+    font-size: 2.8rem !important;
+}
+
+.info-label {
+    font-size: 1rem !important;
+}
+
+.info-value {
+    font-size: 1.2rem !important;
+}
+
+.player-avatar {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 1.1rem !important;
+}
+
+.player-name {
+    font-size: 1.1rem !important;
+}
+
+.copy-btn {
+    padding: 0.6rem 0.9rem !important;
+    font-size: 0.9rem !important;
+}
+
+/* Reduce game screen sizes */
+.game-title-small {
+    font-size: 1.8rem !important;
+}
+
+.room-id-display {
+    font-size: 0.9rem !important;
+}
+
+.turn-text {
+    font-size: 0.8rem !important;
+}
+
+.turn-player {
+    font-size: 1.2rem !important;
+}
+
+.stat-label {
+    font-size: 0.75rem !important;
+}
+
+.stat-value {
+    font-size: 1.1rem !important;
+}
+
+.other-player-name {
+    font-size: 1rem !important;
+}
+
+.other-player-cards {
+    font-size: 0.9rem !important;
+}
+
+/* Reduce card sizes */
+.card-3d {
+    width: 110px !important;
+    height: 154px !important;
+    font-size: 2.2rem !important;
+}
+
+#deck,
+#current-card {
+    width: 120px !important;
+    height: 168px !important;
+    font-size: 2.5rem !important;
+}
+
+.hand-title {
+    font-size: 1.2rem !important;
+}
+
+#uno-button,
+.uno-button {
+    padding: 1rem 1.8rem !important;
+    font-size: 1.5rem !important;
+}
+
+.direction-indicator {
+    font-size: 2rem !important;
+}
+
+.current-color-indicator {
+    width: 45px !important;
+    height: 45px !important;
+}

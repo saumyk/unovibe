@@ -1,0 +1,218 @@
+/* Mobile and Readability Improvements */
+
+/* Increase base font sizes for better readability */
+body {
+    font-size: 18px;
+}
+
+/* Larger menu elements */
+.game-logo {
+    font-size: 7rem !important;
+}
+
+.logo-subtitle {
+    font-size: 1.6rem !important;
+}
+
+.menu-btn {
+    font-size: 1.8rem !important;
+    padding: 1.5rem 2.5rem !important;
+}
+
+/* Larger modal text */
+.modal-title {
+    font-size: 2.8rem !important;
+}
+
+.form-group label {
+    font-size: 1.3rem !important;
+}
+
+.form-group input,
+.form-group select {
+    font-size: 1.4rem !important;
+    padding: 1.2rem 1.5rem !important;
+}
+
+.modal-btn {
+    font-size: 1.7rem !important;
+    padding: 1.5rem !important;
+}
+
+/* Larger lobby text */
+.lobby-title {
+    font-size: 4rem !important;
+}
+
+.info-label {
+    font-size: 1.3rem !important;
+}
+
+.info-value {
+    font-size: 1.6rem !important;
+}
+
+.player-name {
+    font-size: 1.5rem !important;
+}
+
+.player-badge {
+    font-size: 1.1rem !important;
+    padding: 0.5rem 1.2rem !important;
+}
+
+.lobby-btn {
+    font-size: 1.6rem !important;
+    padding: 1.5rem !important;
+}
+
+.copy-btn {
+    font-size: 1.2rem !important;
+    padding: 0.8rem 1.2rem !important;
+}
+
+/* Larger cards for better visibility */
+.card-3d {
+    width: 140px !important;
+    height: 196px !important;
+    font-size: 2.8rem !important;
+}
+
+.card-3d::before,
+.card-3d::after {
+    font-size: 1.6rem !important;
+}
+
+#deck,
+#current-card {
+    width: 150px !important;
+    height: 210px !important;
+}
+
+/* Larger game UI elements */
+.game-title-small {
+    font-size: 2.5rem !important;
+}
+
+.turn-player {
+    font-size: 1.6rem !important;
+}
+
+.stat-value {
+    font-size: 1.5rem !important;
+}
+
+.other-player-name {
+    font-size: 1.3rem !important;
+}
+
+#uno-button {
+    font-size: 2rem !important;
+    padding: 1.5rem 2.5rem !important;
+}
+
+.game-message {
+    font-size: 2rem !important;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .game-logo {
+        font-size: 4.5rem !important;
+    }
+
+    .logo-subtitle {
+        font-size: 1.2rem !important;
+    }
+
+    .menu-btn {
+        font-size: 1.4rem !important;
+        padding: 1.2rem 2rem !important;
+    }
+
+    .modal-title {
+        font-size: 2.2rem !important;
+    }
+
+    .form-group label {
+        font-size: 1.1rem !important;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 1.2rem !important;
+    }
+
+    .modal-btn {
+        font-size: 1.4rem !important;
+    }
+
+    .lobby-title {
+        font-size: 3rem !important;
+    }
+
+    .card-3d {
+        width: 100px !important;
+        height: 140px !important;
+        font-size: 2rem !important;
+    }
+
+    .card-3d::before,
+    .card-3d::after {
+        font-size: 1.2rem !important;
+    }
+
+    #deck,
+    #current-card {
+        width: 110px !important;
+        height: 154px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .game-logo {
+        font-size: 3.5rem !important;
+    }
+
+    .logo-subtitle {
+        font-size: 1rem !important;
+    }
+
+    .menu-btn {
+        font-size: 1.2rem !important;
+        padding: 1rem 1.5rem !important;
+    }
+
+    .modal-title {
+        font-size: 1.8rem !important;
+    }
+
+    .lobby-title {
+        font-size: 2.5rem !important;
+    }
+
+    .card-3d {
+        width: 80px !important;
+        height: 112px !important;
+        font-size: 1.5rem !important;
+    }
+
+    .card-3d::before,
+    .card-3d::after {
+        font-size: 1rem !important;
+    }
+
+    #deck,
+    #current-card {
+        width: 90px !important;
+        height: 126px !important;
+    }
+}
